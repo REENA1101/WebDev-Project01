@@ -24,7 +24,7 @@ const Navbar = () => {
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width:"20px"}} src={lightTheme} alt="" className="toggle-icon"/>
+      <img style={{width: "30px"}} src={lightTheme} alt="" className="toggle-icon"/>
     </div>
   )
 }
