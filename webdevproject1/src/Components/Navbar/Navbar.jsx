@@ -3,7 +3,7 @@ import "./Navbar.css"
 import logoWhite from "../../assets/logo-white.png"
 import searchWhite from "../../assets/serach-white-thin.png"
 import searchBlack from "../../assets/search-black-thin.png"
-import logo from "../../assets/transparent-logo.png"
+import logo from "../../assets/correct-logo.png"
 import darkTheme from "../../assets/black-sun.png"
 import lightTheme from "../../assets/sun-white.png"
 
@@ -11,7 +11,7 @@ import lightTheme from "../../assets/sun-white.png"
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img style={{width:"100px"}} src={logo} alt="" className="logo"/>
+      <img src={logo} alt="" className="logo"/>
       <ul>
         <li>Home</li>
          <li>Products</li>
