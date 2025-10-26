@@ -2,8 +2,10 @@ import React from 'react'
 import "./Navbar.css"
 import logoWhite from "../../assets/logo-white.png"
 import searchWhite from "../../assets/serach-white-thin.png"
-import searchBlack from "../../assets/serach-black-thin.png"
+import searchBlack from "../../assets/search-black-thin.png"
 import logo from "../../assets/transparent-logo.png"
+import darkTheme from "../../assets/black-sun.png"
+import lightTheme from "../../assets/sun-white.png"
 
 
 const Navbar = () => {
@@ -22,7 +24,7 @@ const Navbar = () => {
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width:"100px"}} src={logo} alt="" className="toggle-icon"/>
+      <img style={{width:"20px"}} src={lightTheme} alt="" className="toggle-icon"/>
     </div>
   )
 }
