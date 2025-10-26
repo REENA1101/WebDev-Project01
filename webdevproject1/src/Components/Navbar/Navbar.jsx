@@ -1,10 +1,15 @@
 import React from 'react'
 import "./Navbar.css"
+import logoWhite from "../../assets/logo-white.png"
+import searchWhite from "../../assets/serach-white-thin.png"
+import searchBlack from "../../assets/serach-black-thin.png"
+import logo from "../../assets/transparent-logo.png"
+
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src="" alt="" className="logo"/>
+      <img style={{width:"100px"}} src={logo} alt="" className="logo"/>
       <ul>
         <li>Home</li>
          <li>Products</li>
@@ -14,10 +19,10 @@ const Navbar = () => {
 
       <div className="search-Box">
          <input type="text" placeholder="Search"/>
-         <img src="" alt=""/>
+         <img src={searchWhite} alt=""/>
       </div>
 
-      <img src="" alt="" className="toggle-btn"/>
+      <img style={{width:"100px"}} src={logo} alt="" className="toggle-icon"/>
     </div>
   )
 }
