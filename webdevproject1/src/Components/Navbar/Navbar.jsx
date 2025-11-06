@@ -7,7 +7,9 @@ import searchWhite from "../../assets/serach-white-thin.png"
 import searchBlack from "../../assets/search-black-thin.png"
 import logoW from "../../assets/logo-black.png"
 import logoB from "../../assets/logo-white.png"
-import searchBlack from "../../assets/search-black-thin.png"
+import toggleDay from "../../assets/sun-white.png"
+import toggleNight from "../../assets/black-sun.png"
+import logo from "../../assets/correct-logo.png"
 
 
 
@@ -27,7 +29,7 @@ const Navbar = () => {
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width: "30px"}} src={lightTheme} alt="" className="toggle-icon"/>
+      <img style={{width: "24px"}} src={toggleDay} alt="" className="toggle-icon"/>
     </div>
   )
 }
