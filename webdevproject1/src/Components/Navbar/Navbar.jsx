@@ -5,13 +5,10 @@ import logoDark from "../../assets/logo-white.png"
 
 import searchWhite from "../../assets/serach-white-thin.png"
 import searchBlack from "../../assets/search-black-thin.png"
+import logoW from "../../assets/logo-black.png"
+import logoB from "../../assets/logo-white.png"
+import searchBlack from "../../assets/search-black-thin.png"
 
-import toggleLight from '../../assets//black-sun.png'
-import logo_light from "../../assets/logo-white.png"
-
-import logo from "../../assets/correct-logo.png"
-import darkTheme from "../../assets/black-sun.png"
-import lightTheme from "../../assets/sun-white.png"
 
 
 const Navbar = () => {
