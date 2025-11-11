@@ -25,3 +25,10 @@ ul li{
     cursor: pointer;
 }
 
+.search-box{
+  display: flex;
+  align-items: center;
+  background: #242424;
+  padding: 10px 20px;
+  
+}
