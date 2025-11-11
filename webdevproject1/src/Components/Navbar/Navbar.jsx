@@ -29,7 +29,7 @@ const Navbar = () => {
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width: "24px"}} src={toggleDay} alt="" className="toggle-icon"/>
+      <img style={{width: "24px"}} src={toggleNight} alt="" className="toggle-icon"/>
     </div>
   )
 }
