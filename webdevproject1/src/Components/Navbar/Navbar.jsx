@@ -10,8 +10,6 @@ import toggleDay from "../../assets/sun-white.png"
 import toggleNight from "../../assets/black-sun.png"
 import logo from "../../assets/correct-logo.png"
 
-
-
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -28,7 +26,7 @@ const Navbar = () => {
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width: "24px"}} src={toggleNight} alt="" className="toggle-icon"/>
+      <img style={{width: "24px", marginLeft:"50px"}} src={toggleNight} alt="" className="toggle-icon"/>
     </div>
   )
 }

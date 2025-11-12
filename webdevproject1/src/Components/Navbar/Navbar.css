@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: space-between;
   background:#fff;
-  padding: 15px 7%;
+  padding: 15px 10%;
+  margin-right: -20px;
 }
 
 .logo{
@@ -14,10 +15,10 @@
 
 ul{
     flex: 1;
-    list-style:none; 
+    list-style:none;
     text-align:center;
 }
- 
+
 ul li{
     display: inline-block;
     margin: 10px 20px;
@@ -29,7 +30,7 @@ ul li{
   display: flex;
   align-items: center;
   background: #242424;
-  padding: 10px 10px;
+  padding: 4px 4px;
   border-radius: 50px;
 }
 
@@ -44,5 +45,9 @@ ul li{
 }
 
 .search-Box img{
-   width: 20px;
+   width: 17px;
+}
+
+.navbar ul li{
+ font-size: 15px;
 }
