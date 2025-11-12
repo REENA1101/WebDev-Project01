@@ -2,7 +2,6 @@ import React from 'react'
 import "./Navbar.css"
 import logoLlight from "../../assets/logo-black.png"
 import logoDark from "../../assets/logo-white.png"
-
 import searchWhite from "../../assets/serach-white-thin.png"
 import searchBlack from "../../assets/search-black-thin.png"
 import logoW from "../../assets/logo-black.png"
