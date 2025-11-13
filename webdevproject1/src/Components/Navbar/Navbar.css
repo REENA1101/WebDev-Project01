@@ -52,3 +52,8 @@ ul li{
 .navbar ul li{
  font-size: 15px;
 }
+
+.search-Box input::placeholder{
+  color: #fff;
+}
+
