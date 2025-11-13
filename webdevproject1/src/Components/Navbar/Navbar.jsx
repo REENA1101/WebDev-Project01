@@ -22,11 +22,11 @@ const Navbar = () => {
       </ul>
 
       <div className="search-Box">
-         <input type="text" placeholder="Search"/>
+         <input type="text" placeholder="Search" style={{fontSize:"15px"}}/>
          <img src={searchWhite} alt=""/>
       </div>
 
-      <img style={{width: "24px", marginLeft:"50px"}} src={toggleNight} alt="" className="toggle-icon"/>
+      <img style={{width: "24px", marginLeft:"40px"}} src={toggleNight} alt="" className="toggle-icon"/>
     </div>
   )
 }
